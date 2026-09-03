@@ -1,5 +1,11 @@
 # when horse is ridden
-advancement revoke @s only pethorse:mount
 
 # temp
-say temp started riding horse
+say temp: @s mounted horse
+
+function pethorse:summon_components
+function pethorse:mount_components
+
+# temp: later add function to kill all entities with tag placeholder_prh8dABkQm
+
+advancement revoke @s only pethorse:mount
