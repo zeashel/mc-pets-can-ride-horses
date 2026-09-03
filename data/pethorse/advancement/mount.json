@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "pethorse:on_ride_horse"
+        "function": "pethorse:on_mount_horse"
     }
 }
