@@ -1,3 +1,3 @@
 {
-    "values": ["pethorse:tick_rotate_boat"]
+    "values": ["pethorse:tick_rotate_boat", "pethorse:tick_check_if_dismounted"]
 }

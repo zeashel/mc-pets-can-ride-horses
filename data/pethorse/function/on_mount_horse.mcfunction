@@ -1,11 +1,11 @@
 # when horse is ridden
 
-# temp
-say temp: @s mounted horse
+# DEBUG
+# say DEBUG: @s mounted horse
+
+tag @s add pethorse.riding
 
 function pethorse:summon_components
 function pethorse:mount_components
-
-# temp: later add function to kill all entities with tag placeholder_prh8dABkQm
 
 advancement revoke @s only pethorse:mount
