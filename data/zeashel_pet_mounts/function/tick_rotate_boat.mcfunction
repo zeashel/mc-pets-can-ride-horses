@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:acacia_boat,tag=zeashel_pet_mounts.placeholder_h8dABkQm,limit=1,sort=nearest] run execute at @e[type=minecraft:horse,limit=1,sort=nearest] run rotate @e[type=minecraft:acacia_boat,tag=zeashel_pet_mounts.placeholder_h8dABkQm,limit=1,sort=nearest] ~ ~

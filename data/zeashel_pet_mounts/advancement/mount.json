@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "pethorse:on_mount_horse"
+        "function": "zeashel_pet_mounts:on_mount_horse"
     }
 }
