@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "By zeashel. Allows the nearest tamed cat or wolf to ride horses with you.",
+        "description": "By zeashel. Allows the nearest tamed cat or wolf to ride horses with you. Requires Invisible Acacia Boat resourcepack",
         "min_format": [101, 1],
         "max_format": [107, 1]
     }
