@@ -1,0 +1,1 @@
+say Pets Ride Horses datapack v0.1 loaded
