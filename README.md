@@ -1,11 +1,11 @@
 # Minecraft Pets Can Ride Horses
 
-A 26.x minecraft datapack that allows nearest cat or wolf within a 5 block radius to ride horses with you (as pictured below). 
+A 26.x minecraft datapack that allows nearest cat or wolf within a 5 block radius to ride horses with you (as pictured below).
 
 [image/gif later]
 
-- Compatible with my [Immortal Pets datapack](https://github.com/zeashel/mc-immortal-pets).
-- [How to install](#installation).
+- Compatible with my [Immortal Pets datapack](https://github.com/zeashel/mc-immortal-pets)
+- [How to install](#installation)
 
 ## Features
 
@@ -15,10 +15,10 @@ A 26.x minecraft datapack that allows nearest cat or wolf within a 5 block radiu
 
 ## Dependencies
 
-- Tested on vanilla minecraft version 26.1.x–26.2
+- Vanilla minecraft version 26.1.x–26.2
 - Requires the Invisible Acacia Boat resourcepack [included in this repo](invisible_acacia_boat/). If you have Optifine or EMF, normal acacia boats will remain unaffected.
 
-## Optional dependencies
+## Optional Dependencies
 
 - Optifine or [EMF](https://modrinth.com/mod/entity-model-features)
 - [Fresh Animations resourcepack](https://modrinth.com/resourcepack/fresh-animations).
