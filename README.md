@@ -2,7 +2,7 @@
 
 A 26.x minecraft datapack that allows nearest cat or wolf within a 5 block radius to ride horses with you (as pictured below).
 
-[image/gif later]
+![Demo video of a cat riding a horse with the player](assets/demo.gif)
 
 - Compatible with my [Immortal Pets datapack](https://github.com/zeashel/mc-immortal-pets)
 - [How to install](#installation)
