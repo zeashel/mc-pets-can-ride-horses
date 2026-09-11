@@ -29,10 +29,13 @@ These are not required and the mod will still function fine in vanilla minecraft
 
 1. Download the .zip file from this [github's releases](https://github.com/zeashel/mc-pets-can-ride-horses/releases) or the modrinth page (pending).
 2. Unzip the file.
-3. Drag and drop the `pets_can_ride_horses...` folder into your local world or server's datapack folder (the name will depend on the version you installed). Example:
-    - Mac: `~/Library/Application Support/minecraft/saves/My World Name/datapacks/pets_can_ride_horses_v0.1_26.1.2`
-    - Windows: `%appdata%\.minecraft\saves\My World Name\datapacks\pets_can_ride_horses_v0.1_26.1.2`
-4. When you open the world, you should see a message like `[Server] Pets Ride Horses datapack v0.1 loaded`. This means the installation is successful.
+3. Drag and drop the datapack `pets_can_ride_horses...` folder into your local world or server's datapack folder (the name will depend on the version you installed). Example:
+    - Mac: `~/Library/Application Support/minecraft/saves/My World Name/datapacks`
+    - Windows: `%appdata%\.minecraft\saves\My World Name\datapacks`
+4. Drag and drop the resourcepack `invisible_acacia_boat...` folder into your local world or server's resourcepack folder (the name will depend on the version you installed). Example:
+    - Mac: `~/Library/Application Support/minecraft/resourcepacks`
+    - Windows: `%appdata%\.minecraft\resourcepacks`
+5. When you open the world, you should see a message like `[Server] Pets Ride Horses datapack v0.1 loaded`. This means the installation is successful.
 
 ## Known Issues
 
