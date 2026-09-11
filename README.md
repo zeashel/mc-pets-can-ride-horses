@@ -32,10 +32,11 @@ These are not required and the mod will still function fine in vanilla minecraft
 3. Drag and drop the `pets_can_ride_horses...` folder into your local world or server's datapack folder (the name will depend on the version you installed). Example:
     - Mac: `~/Library/Application Support/minecraft/saves/My World Name/datapacks/pets_can_ride_horses_v0.1_26.1.2`
     - Windows: `%appdata%\.minecraft\saves\My World Name\datapacks\pets_can_ride_horses_v0.1_26.1.2`
-4. When you open the world, you should see a message like `[Server] Pets Ride Horses datapack v0.1 loaded.`. This means the installation is successful.
+4. When you open the world, you should see a message like `[Server] Pets Ride Horses datapack v0.1 loaded`. This means the installation is successful.
 
 ## Known Issues
 
+- Slight delay when rotating the horse due to how tick functions behave.
 - Without Optifine/EMF installed, all acacia boats will be invisible.
 - Without Optifine/EMF installed, there will be a slight visual glitch of an invisible water patch when riding a horse.
 
