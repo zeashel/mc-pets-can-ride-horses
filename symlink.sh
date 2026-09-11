@@ -1,4 +1,5 @@
-# create symlinks to selected world's datapack folder and global resourcepack folder
+# create symlinks to selected world's datapack folder and
+# global resourcepack folder
 #
 # defaults to macos + default launcher only sorry. if on
 # linux/using different launcher, modify the MCPATH constant
@@ -14,12 +15,24 @@ if [ -d "$MCPATH" ]; then
 
     # allow minecraft symlinks for only these directories:
     touch "$MCPATH/allowed_symlinks.txt" 
-    echo "$PWD/$DATA_PACK" >> "$MCPATH/allowed_symlinks.txt"  
-    echo "$PWD/$RESOURCE_PACK" >> "$MCPATH/allowed_symlinks.txt"  
 
+    # only append if path string don't already exist
+    if ! grep -q "^$PWD/$DATA_PACK$" "$MCPATH/allowed_symlinks.txt"; then
+        echo "$PWD/$DATA_PACK" >> "$MCPATH/allowed_symlinks.txt"
+    fi
+
+    if ! grep -q "^$PWD/$RESOURCE_PACK$" "$MCPATH/allowed_symlinks.txt"; then
+        echo "$PWD/$RESOURCE_PACK" >> "$MCPATH/allowed_symlinks.txt"
+    fi
+
+    # make sure arg1 is given
     if [ "$#" -eq 1 ]; then
         # datapack
-        ln -siv "$PWD/$DATA_PACK" "$MCPATH/saves/$1/datapacks"
+        if [ -d "$MCPATH/saves/$1/datapacks" ]; then
+            ln -siv "$PWD/$DATA_PACK" "$MCPATH/saves/$1/datapacks"
+        else
+            echo "$0: the world name \"$1\" doesn't exist"
+        fi
 
         # resourcepack
         ln -siv "$PWD/$RESOURCE_PACK" "$MCPATH/resourcepacks"
