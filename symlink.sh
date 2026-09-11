@@ -1,14 +1,16 @@
 # create symlinks to selected world's datapack folder and global resourcepack folder
 #
-# macos only sorry
+# defaults to macos + default launcher only sorry. if on
+# linux/using different launcher, modify the MCPATH constant
+#
 # usage: ./symlink.sh <YOUR TESTING WORLD>
 # eg: ./symlink.sh "Datapack Testing"
 
-MCPATH="$HOME/Library/Application Support/minecraft"
-DATA="pets_can_ride_horses"
-RESOURCE="invisible_acacia_boat"
+readonly MCPATH="$HOME/Library/Application Support/minecraft"
+readonly DATA="pets_can_ride_horses"
+readonly RESOURCE="invisible_acacia_boat"
 
-if [ "$(uname -s)" = "Darwin" ]; then
+if [ -d "$MCPATH" ]; then
 
     # allow minecraft symlinks for only these directories:
     touch "$MCPATH/allowed_symlinks.txt" 
@@ -24,5 +26,5 @@ if [ "$(uname -s)" = "Darwin" ]; then
     fi
 
 else
-    echo "not on MacOS! this script only targets the MacOS minecraft directory (for now)"
+    echo "$0: the directory $MCPATH does not exist! please change the MCPATH variable in the script"
 fi
