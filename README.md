@@ -48,3 +48,9 @@ So far I have not found a vanilla workaround as vanilla doesn't allow CEMs.
 ## Reporting
 
 This mod has been thoroughly tested in singleplayer but should also work on multiplayer as well, and no issues have been found other than the ones mentioned above. If you experience any unreported problems, please report it as a [github issue here](https://github.com/zeashel/mc-pets-can-ride-horses/issues).
+
+## License
+
+[MIT License](LICENSE)
+
+Copyright (c) 2026 zeashel.
