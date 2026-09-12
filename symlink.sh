@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+#
 # create symlinks to selected world's datapack folder and
 # global resourcepack folder
 #
