@@ -39,7 +39,6 @@ These are not required and the mod will still function fine in vanilla minecraft
 
 ## Known Issues
 
-- Slight delay when rotating the horse due to how tick functions behave.
 - Without Optifine/EMF installed, all acacia boats will be invisible.
 - Without Optifine/EMF installed, there will be a slight visual glitch of an invisible water patch when riding a horse.
 
